@@ -8,7 +8,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: black;
     background-color: lightgrey; 
-
+  
 }
 
 /* apply styles to <header> */
@@ -52,6 +52,7 @@ header h1 {
    color: black;
    border-radius: 40px;
  }
+/* apply styles to <section> */
 
 .section-title {
 font-size: 30px;
@@ -68,4 +69,16 @@ width: 50%;
     height: 200px;
   }
   
+  @media screen and (max-width: 575px) {
+header nav ul li a {
+font-size: 20px;
+text-align: center;
+}
+
+header {
+  background-color: #094364;
+  padding: 10px;
+  margin: 15px;
+}
+  }
   
